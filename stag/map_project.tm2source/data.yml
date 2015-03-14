@@ -1,0 +1,42 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: luiscapelo.42ac28ff
+  rev: s-6c7777b7
+  saveCenter: true
+attribution: ''
+center: 
+  - 37.6117
+  - 34.6513
+  - 7
+description: ''
+Layer: 
+  - id: OGRGeoJSON
+    Datasource: 
+      file: /Users/luis/Documents/Programming/sxsw/stag/unosat/UNOSAT_DamageAssessment_OFDA-REACH_CE20130604SYR/all_data.json
+      layer: OGRGeoJSON
+      type: ogr
+    description: syria_destruction
+    fields: 
+      Confiden_1: String
+      Confidence: String
+      Damage_Sta: String
+      EventCode: String
+      FieldValid: String
+      Grouped_Da: String
+      Main_Dam_1: String
+      Main_Damag: String
+      Neighborho: String
+      Notes: String
+      SensorDa_1: String
+      SensorDate: String
+      SensorID: String
+      SensorID_2: String
+      Settlement: String
+      SiteID: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 14
+minzoom: 0
+name: Destruction in Syria

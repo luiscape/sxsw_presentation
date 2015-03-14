@@ -1,0 +1,92 @@
+/* General */
+
+body {
+  color: #333333;
+}
+
+/* Front-page examples */
+
+table.front-page-example * {
+  border: solid 1px;
+}
+
+table.front-page-example {
+  max-width: 40em;
+  margin-left: 3em;
+}
+
+table.front-page-example thead th {
+  font-size: 100%;
+  text-align: center;
+  text-transform: none;
+}
+
+table.front-page-example th, table.front-page-example td {
+  height: 3ex;
+  padding: .5ex 1ex;
+  width: 10em;
+}
+
+td.num {
+  text-align: right;
+}
+
+tr.hashtags {
+  background: yellow;
+}
+
+table.front-page-example tr.hashtags th {
+  font-weight: normal;
+  font-family: monospace;
+  font-size: 120%;
+}
+
+/* Table headers for HXL examples */
+
+thead tr {
+  background: #ddddff;
+}
+
+thead tr.hxl {
+  background: #ddffdd;
+}
+
+thead td {
+  font-weight: bold;
+}
+
+thead tr.hxl td {
+  font-weight: normal;
+  font-family: monospace;
+  font-size: 120%;
+}
+
+/* Home page stuff */
+
+body.home .entry-header {
+  display: none;
+}
+
+ol.steps {
+  counter-reset: steps;
+  list-style: none;
+}
+
+ol.steps li:before {
+  content: counter(steps);
+  counter-increment: steps;
+  border: solid 2px;
+  border-radius: 50%;
+  padding: 0 .5em;
+  margin-right: 1em;
+}
+
+ol.steps li {
+  margin: 2em 0;
+}
+
+ol.steps img {
+  box-shadow: none;
+  width: 30em;
+}
+

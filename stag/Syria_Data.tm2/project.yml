@@ -1,0 +1,30 @@
+_prefs: 
+  mapid: luiscapelo.5b2a94c6
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 37.096
+  - 36.172
+  - 12
+description: Using UNOSAT data to measure the destruction in Syria.
+format: "png8:m=h:c=192"
+interactivity_layer: ''
+layers: null
+maxzoom: 12
+minzoom: 7
+name: Destruction in Syria
+source: "mapbox:///mapbox.satellite,mapbox.mapbox-streets-v5,luiscapelo.42ac28ff"
+styles: 
+  - style.mss
+  - unosat.mss
+  - places.mss
+  - admin.mss
+template: ''
